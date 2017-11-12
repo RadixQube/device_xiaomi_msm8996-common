@@ -149,7 +149,8 @@ PRODUCT_PACKAGES += \
     init.qcom.power.rc \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.safailnet.rc
 
 # Component overrides
 PRODUCT_COPY_FILES += \
