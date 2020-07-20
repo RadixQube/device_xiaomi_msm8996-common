@@ -646,11 +646,11 @@ vendor/lib/libsensor_reg.so|db6e00ba09e2d7cb65c070a3aecf374f7ea4cea1
 vendor/lib/libsensor_user_cal.so|d4b038e4424af44d4c7ba3b55ff630e98b78527f
 vendor/lib/sensors.ssc.so|91aaf89def079fe0c06c80656548f5229802e0cd
 
-# Thermal - from LA.UM.7.5.r1-05300-8x96.0
-vendor/bin/thermal-engine|61f954e68514aedeede9cca90cc70b5cd4736e02
--vendor/lib64/libthermalclient.so|552c501aac03b5390f30f7105f6f46788f197f9f
-vendor/lib64/libthermalioctl.so|e1597b961c1bee480f018dd7d2cc4e9fc2bb252b
--vendor/lib/libthermalclient.so|dc66c8ba3a49842f090eb4d15d2143d68987367d
+# Thermal - from marlin - QP1A.191005.007.A3
+vendor/bin/thermal-engine|03c02182c1d0a11718eb7d41aaccd308832b22b3
+-vendor/lib64/libthermalclient.so|e888a313c5aa25186964a0f27a81009b86aa7f58
+vendor/lib64/libthermalioctl.so|7f6df3a8c54b755b46b8b6b83b7b5701a6d8e3c4
+-vendor/lib/libthermalclient.so|2e47903a3fe5d27d7e8df3a8a2927ab896f48bc8
 
 # Time services - from LA.UM.8.6.r1-04400-89xx.0
 -vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|c935b678fdaed033513f044f6492361c3370f9f0
