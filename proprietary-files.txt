@@ -1,21 +1,19 @@
 # Default: natrium - OPR1.170623.032 V11.0.2.0.OBGCNXM
 
+# ADSP - from LA.UM.8.6.r1-04400-89xx.0
+vendor/bin/adsprpcd|a5e878691577485c9f7ee33dfe02384a13f0a265
+vendor/lib64/libadsp_default_listener.so|3f69a73528c8687607da617a549ec5a449af3cc0
+vendor/lib64/libadsprpc.so|1b49735ca4ab61687f16fdad3c218f422257f806
+vendor/lib64/libfastcvadsp_stub.so|f101b66fa4a450b5af2e6aa9f7aaa28f9a876005
+vendor/lib64/libfastcvopt.so|4c2f8b95479ae5416b61388d343b7dcd9b12d390
+vendor/lib/libadsp_default_listener.so|6311c407e31742bd686e6a6fa5ab6ed4d27fb27a
+vendor/lib/libadsprpc.so|1cef31d6abef252028ca7fefee6add0938a32576
+vendor/lib/libfastcvadsp_stub.so|996345605e1d631151a6b4e9cd9f65b2c7e82dac
+vendor/lib/libfastcvopt.so|5ddc82093d344b11c532bca2af5285de99706917
+
 # ADSP - from LA.UM.7.5.r1-05300-8x96.0
-vendor/bin/adsprpcd|ef200e3bce4429fd9461c74330a003f069ffd5b3
-vendor/lib64/libadsp_default_listener.so|bddcdb6aa9efa39f12fc830fc54d42d8e45409dd
-vendor/lib64/libadsprpc.so|a64db8a056f364586011b08bb5e8060ba2ce6929
-vendor/lib64/libcdsprpc.so|bff6e3217f469011f330c3563bfe4e11dea164ca
-vendor/lib64/libfastcvadsp_stub.so|e25929713605e70417dee54b362b98d04a860f47
-vendor/lib64/libfastcvopt.so|1b6cda561541013dfb9379cb96f675d634d93137
-vendor/lib64/libsdsprpc.so|44cbded578f25eab4ae6a34f48c3f410c500ca05
-vendor/lib/libadsp_default_listener.so|58d05c4794c6ceb7b59e332c909a79ab528a4f31
 vendor/lib/libadsp_hvx_callback_skel.so|b7e47d8d0c011caea30daf974de81eb01bb90268
 vendor/lib/libadsp_hvx_stub.so|5842e47b5929e15c8b63f1aa4795ca3432debebb
-vendor/lib/libadsprpc.so|df8d5f2aca5f63e6a507111e7bd4933fadb025cd
-vendor/lib/libcdsprpc.so|5af5859dee7d34df2ec183b2cdee20f8cc5d2d87
-vendor/lib/libfastcvadsp_stub.so|6b50fd7d53811b51e06fedd87c12a794d0c2f645
-vendor/lib/libfastcvopt.so|797b9843ccc1f650d66831d645db2bc96b89c299
-vendor/lib/libsdsprpc.so|557a7296dd3ab9a8c3f655b85ca2603d0dd70297
 
 # ADSP modules - from LA.UM.7.5.r1-05300-8x96.0
 vendor/lib/rfsa/adsp/libadsp_fd_skel.so|5607a78451b621bb6399878ab58ba896c72797ab
@@ -38,17 +36,17 @@ vendor/lib/rfsa/adsp/libvpp_svc_skel.so|535edf13dda82e200d8cfe6d704dfbcbd3d782f7
 vendor/lib/rfsa/adsp/libexternal_dog_skel.so
 vendor/lib/rfsa/adsp/us-syncproximity.so
 
-# Audio libraries - from LA.UM.7.5.r1-05300-8x96.0
-vendor/lib/soundfx/libqcbassboost.so|4daf39244387e81665597a9b609882b743ff7472
-vendor/lib/soundfx/libqcreverb.so|95585076f5069f14cc30d81b5b802dbb5e65ab97
-vendor/lib/soundfx/libqcvirt.so|7f859d06de66960f127d141fadc80151b249d42f
-vendor/lib/libacdb-fts.so|4f86d94582dd5134dbcf7b23e3963a5f3e0a680a
-vendor/lib/libacdbloader.so|b81b446a1f7309993846822199a4b9b0e307e0db
-vendor/lib/libacdbrtac.so|4ca5d96caf61eb2b4967d1dd3dfde78a19bfbf21
-vendor/lib/libadiertac.so|f8776c34269c49f87840a3ec5ef6141a11b016b8
-vendor/lib/libadm.so|bd574dd1f10937386df3626e2ed9d4de7d5d8ba3
-vendor/lib/libaudcal.so|b6b55c953af4af971dfe47d94f0da2ac6041b9c1
-vendor/lib/libqtigef.so|784fcf30bcb94db37c67ea5c8cbc93c8c4a19c2c
+# Audio libraries - from LA.UM.8.6.r1-04400-89xx.0
+vendor/lib/soundfx/libqcbassboost.so|223896ecb679384ba4e66d0b6905ca24ae1dda4d
+vendor/lib/soundfx/libqcreverb.so|62be9233cf5e259370a821ef6dc0cb0304b9416c
+vendor/lib/soundfx/libqcvirt.so|b6c332827ad84fdde9b7e57ca073928a23bbd807
+vendor/lib/libacdb-fts.so|6bbcdd34b8344964c54d0a072e63feec71673b7c
+vendor/lib/libacdbloader.so|d4a41a817ae856c0c727d6f9360c29ee0c2f410a
+vendor/lib/libacdbrtac.so|863cc396b3234bdb978b312bce7746ff1f1a6769
+vendor/lib/libadiertac.so|59bd9c9c2df081580088df25274cb0a196221b80
+vendor/lib/libadm.so|0bd0e69289c897a50fefe16a0d29b25289973171
+vendor/lib/libaudcal.so|dda994bbd37d3c178120791a911fb219a2ccb5ca
+vendor/lib/libqtigef.so|5630df4e52109c0602d441d5d63bd342d202faf4
 
 # Bluetooth - from cheeseburger - QKQ1.191014.012
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|fcf64033a163581f69a58984788b85576af8a51c
@@ -274,20 +272,20 @@ vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
 vendor/lib64/libdpmqmihal.so|3ec8ff45991cdb502e9297e049197d02e2c7e941
 
-# DRM and SEE - from LA.UM.7.5.r1-05300-8x96.0
-vendor/bin/qseecomd|191536bdf3d72238ea7b3ca54b4289b7a09b4bcd
+# DRM and SEE - from LA.UM.8.6.r1-04400-89xx.0
+vendor/bin/qseecomd|e43054ef83d7d27a0b1958c693ae07fdac6d73e0
 vendor/lib64/libGPreqcancel.so|6f59015f1e340dd1c995f0008a5f282037d98867
 vendor/lib64/libGPreqcancel_svc.so|84783ffc4dc45a6934a2c87166842fd1d6c73ebe
 vendor/lib64/libQSEEComAPI.so|050e9cac4b5bd3c2fd2babc4c567987d7c6ce46b
 vendor/lib64/libSecureUILib.so|9462ad202be6df615d008e3c72b2592dc8e20e41
-vendor/lib64/libStDrvInt.so|768602d8b0c04ff8d09ebcf010c19ccb589dc4a7
+vendor/lib64/libStDrvInt.so|c5413acfc1eb7218c0cff4085c8116e91252acca
 vendor/lib64/libdrmfs.so|e72d79579f78501486fbd0883ee620fcb0b726ca
 vendor/lib64/libdrmtime.so|7eaed4940c68505b312d26b26585bfc93bbd8d54
-vendor/lib64/libqisl.so|1f1523c03daffa9e1cd45d96d212d2fa8c1b5790
-vendor/lib64/librpmb.so|9f88e88cd8155b69a085548a60a15c5b5be70f48
+vendor/lib64/libqisl.so|491ac949ab488299c7a1ae4fe8257ec0a6f994b1
+vendor/lib64/librpmb.so|252757acda40774aebbcb29397eab514595f70db
 vendor/lib64/libsecureui.so|4e496259eb6da9b3dcf6fb744da897422350b6c7
-vendor/lib64/libsecureui_svcsock.so|dbd7400a449a10573a2d8d3aafc0214a64aa1cd7
-vendor/lib64/libssd.so|a3b4f5c81b96966f8d2a1a2f8518522f223e73fb
+vendor/lib64/libsecureui_svcsock.so|060bbd76ead3b3aeb323af0c7352f9445088d3fe
+vendor/lib64/libssd.so|33d717f793c2579e3bd17b5ce6534cb68c12887d
 vendor/lib/libQSEEComAPI.so|cfc57d8022dbac5b20249e5ce7137b0834a208a0
 
 # DRM Widevine - from LA.UM.8.6.r1-03400-89xx.0
@@ -295,9 +293,9 @@ vendor/bin/hw/android.hardware.drm@1.2-service.widevine|f4258fe902140e7a35c59f79
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|e3cb732c0bd519988100675edf385d947abf5f6c
 vendor/lib64/libwvhidl.so|1b0dce24a4f77883785999b9cf6cb5686232c3b3
 
-# Gatekeeper - from LA.UM.7.5.r1-05300-8x96.0
-vendor/lib64/hw/gatekeeper.msm8996.so|d324fd57026ac20409c474cfc4e15595aa9d4738
-vendor/lib/hw/gatekeeper.msm8996.so|a1e3756cb6e42f869ae1997028eaa9159478525b
+# Gatekeeper - from LA.UM.8.6.r1-04400-89xx.0
+vendor/lib64/hw/gatekeeper.msm8996.so|3b72f1b6c336201a160317810de34d346fc411e6
+vendor/lib/hw/gatekeeper.msm8996.so|73b6ae8dfe405c2f20af1ef9364bd37eb9809438
 
 # GPS - from LA.UM.8.6.r1-04400-89xx.0
 etc/permissions/com.qti.location.sdk.xml|cb68a566bd77dcc75bb7547199d528289fac01cb
@@ -461,15 +459,15 @@ vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|bee66b95aa31d6c536e27b67aed2094b0b6
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so|f4eef520bbf98e6e1ac8697ef7eef0109487dba1
 vendor/lib64/vendor.qti.imsrtpservice@1.0.so|559a2dbf409d86746ed4303f2e0089256bb91a07
 
-# Keystore - from LA.UM.7.5.r1-05300-8x96.0
-vendor/lib64/hw/keystore.msm8996.so|58195df09c1bc95c3e54d5594c13c83fdf54ad47
-vendor/lib/hw/keystore.msm8996.so|a8de2add9c6e90765a83e15dcdb9abacb015fb3d
+# Keystore - from LA.UM.8.6.r1-04400-89xx.0
+vendor/lib64/hw/keystore.msm8996.so|9ad2d76083fd4cc79d258cd47ae5e20c005d8ae9
+vendor/lib/hw/keystore.msm8996.so|72b2f258cce7e42aebf8891857f65c741d5ea179
 
-# Listen - from LA.UM.7.5.r1-05300-8x96.0
-vendor/lib64/hw/sound_trigger.primary.msm8996.so|b38353410e33fe4fdb5936ce140442f1b1056231
-vendor/lib/hw/sound_trigger.primary.msm8996.so|52ba9836ceb42b5bdf35785f40701391dfaa7051
-vendor/lib/libadpcmdec.so|eeaef8dd6cad3da613860bb263f192cda56c60b6
-vendor/lib/libsmwrapper.so|3926c3928c7276f34dd851798552f7433e86bbf5
+# Listen - from LA.UM.8.6.r1-04400-89xx.0
+vendor/lib64/hw/sound_trigger.primary.msm8996.so|e390303e5032421f70f4bf6785b146597e695a05
+vendor/lib/hw/sound_trigger.primary.msm8996.so|fd64082c703a5a92e553f65de4ad8edaa9da2ad8
+vendor/lib/libadpcmdec.so|be5fdf08a08b635816381e61b6bbf2874c62f613
+vendor/lib/libsmwrapper.so|1ab31b5378265784145defa47d50435029cf5f57
 
 # Media - from LA.UM.8.6.r1-04400-89xx.0
 lib64/libmmosal.so|f2ec52d5ff321b7064dd6102a0ebc7914c11b7c9
